@@ -1,6 +1,6 @@
 {
   "name": "bekasi-lang-web",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "description": "Website dokumentasi Bekasi Lang berbasis Next.js App Router, lengkap dengan install guide, VS Code extension guide, dan halaman developer.",
   "scripts": {
@@ -25,5 +25,8 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }

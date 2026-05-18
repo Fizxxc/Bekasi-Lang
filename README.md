@@ -68,3 +68,16 @@ git remote add origin https://github.com/USERNAME/bekasi-lang-web.git
 git branch -M main
 git push -u origin main
 ```
+
+## Deploy ke Vercel
+
+Project ini dipin ke Node.js 20.x lewat `package.json` supaya proses install di Vercel lebih stabil.
+
+Pengaturan yang disarankan di Vercel:
+
+    Framework Preset: Next.js
+    Install Command: npm install --no-audit --no-fund
+    Build Command: npm run build
+    Output Directory: kosong / default
+
+Kalau pernah gagal deploy, buka Vercel > Deployments > Redeploy > centang Clear Build Cache.
